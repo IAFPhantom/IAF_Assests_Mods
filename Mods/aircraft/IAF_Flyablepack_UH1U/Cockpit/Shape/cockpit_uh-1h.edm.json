@@ -1,0 +1,344 @@
+{
+ "UH1-cpt_dev2": {
+  "reflMult": -0.5,
+  "reflAdd": 0.0,
+  "specMult": 0.0,
+  "specAdd": 0.75,
+  "specSelect": 0,
+  "albedoLevel": 0.25,
+  "albedoContrast": 0.69400000572204589844
+ },
+ "UH1-cpt_pribors_3": {
+  "reflMult": -0.5,
+  "reflAdd": 0.0,
+  "specMult": 0.0,
+  "specAdd": 0.75,
+  "specSelect": 0,
+  "albedoLevel": 0.31000000238418579102,
+  "albedoContrast": 0.55000001192092895508
+ },
+ "UH1-cpt_central_box": {
+  "reflMult": -0.5,
+  "reflAdd": 0.0,
+  "specMult": 0.0,
+  "specAdd": 0.75,
+  "specSelect": 0,
+  "albedoLevel": 0.31400001049041748047,
+  "albedoContrast": 0.54299998283386230469
+ },
+ "UH1-cpt_dev3_4": {
+  "reflMult": -0.5,
+  "reflAdd": 0.0,
+  "specMult": 0.0,
+  "specAdd": 0.75,
+  "specSelect": 0,
+  "albedoLevel": 0.31000000238418579102,
+  "albedoContrast": 0.55000001192092895508
+ },
+ "UH1-cpt_panel": {
+  "reflMult": -0.5,
+  "reflAdd": 0.0,
+  "specMult": 0.0,
+  "specAdd": 0.75,
+  "specSelect": 0,
+  "albedoLevel": 0.32300001382827758789,
+  "albedoContrast": 0.55000001192092895508
+ },
+ "UH1-cpt_karkas2": {
+  "reflMult": -0.5,
+  "reflAdd": 0.0,
+  "specMult": 0.0,
+  "specAdd": 0.75,
+  "specSelect": 0,
+  "albedoLevel": 0.37000000476837158203,
+  "albedoContrast": 0.55000001192092895508
+ },
+ "seats_mat": {
+  "reflMult": -0.5,
+  "reflAdd": 0.0,
+  "specMult": 0.0,
+  "specAdd": 0.75,
+  "specSelect": 0,
+  "albedoLevel": 0.39599999785423278809,
+  "albedoContrast": 0.69999998807907104492
+ },
+ "UH1-cpt_pribors_6": {
+  "reflMult": -0.5,
+  "reflAdd": 0.0,
+  "specMult": 0.0,
+  "specAdd": 0.75,
+  "specSelect": 0,
+  "albedoLevel": 0.31000000238418579102,
+  "albedoContrast": 0.55000001192092895508
+ },
+ "UH1-cpt_central_panel": {
+  "reflMult": -0.5,
+  "reflAdd": 0.0,
+  "specMult": 0.0,
+  "specAdd": 0.75,
+  "specSelect": 0,
+  "albedoLevel": 0.25,
+  "albedoContrast": 0.72000002861022949219
+ },
+ "UH1-cpt_central_panel_3": {
+  "reflMult": -0.5,
+  "reflAdd": 0.0,
+  "specMult": 0.0,
+  "specAdd": 0.75,
+  "specSelect": 0,
+  "albedoLevel": 0.25,
+  "albedoContrast": 0.72000002861022949219
+ },
+ "UH1-cpt_XM60": {
+  "reflMult": -0.5,
+  "reflAdd": 0.0,
+  "specMult": 0.0,
+  "specAdd": 0.75,
+  "specSelect": 0,
+  "albedoLevel": 0.37000000476837158203,
+  "albedoContrast": 0.55000001192092895508
+ },
+ "UH1-cpt_central_panel_6": {
+  "reflMult": -0.5,
+  "reflAdd": 0.0,
+  "specMult": 0.0,
+  "specAdd": 0.75,
+  "specSelect": 0,
+  "albedoLevel": 0.25,
+  "albedoContrast": 0.78500002622604370117
+ },
+ "door_mat": {
+  "reflMult": -0.5,
+  "reflAdd": 0.0,
+  "specMult": 0.0,
+  "specAdd": 0.75,
+  "specSelect": 0,
+  "albedoLevel": 0.25,
+  "albedoContrast": 0.93699997663497924805
+ },
+ "UH1-cpt_scales_4": {
+  "reflMult": -0.5,
+  "reflAdd": 0.0,
+  "specMult": 0.0,
+  "specAdd": 0.75,
+  "specSelect": 0,
+  "albedoLevel": 0.37000000476837158203,
+  "albedoContrast": 0.55000001192092895508
+ },
+ "UH1-cpt_lamps": {
+  "reflMult": 1.0,
+  "reflAdd": 0.0,
+  "specMult": -1.2999999523162841797,
+  "specAdd": 1.0,
+  "specSelect": 1,
+  "albedoLevel": 0.0,
+  "albedoContrast": 1.0
+ },
+ "UH1-cpt_central_panel_4": {
+  "reflMult": -0.5,
+  "reflAdd": 0.0,
+  "specMult": 0.0,
+  "specAdd": 0.75,
+  "specSelect": 0,
+  "albedoLevel": 0.31000000238418579102,
+  "albedoContrast": 0.55000001192092895508
+ },
+ "uh1_main_dam": {
+  "reflMult": 0.5,
+  "reflAdd": 0.0,
+  "specMult": -0.89999997615814208984,
+  "specAdd": 0.89999997615814208984,
+  "specSelect": 0,
+  "albedoLevel": 0.10000000149011611938,
+  "albedoContrast": 1.0
+ },
+ "UH1-cpt-door": {
+  "reflMult": -0.5,
+  "reflAdd": 0.0,
+  "specMult": 0.0,
+  "specAdd": 0.75,
+  "specSelect": 0,
+  "albedoLevel": 0.37000000476837158203,
+  "albedoContrast": 0.55000001192092895508
+ },
+ "UH1-cpt_glass_dm_def": {
+  "reflMult": 1.0,
+  "reflAdd": 1.0,
+  "specMult": -3.0,
+  "specAdd": -3.0,
+  "specSelect": 1,
+  "albedoLevel": 0.0,
+  "albedoContrast": 1.0
+ },
+ "UH1-cpt_glass_dm": {
+  "reflMult": 0.5,
+  "reflAdd": 0.0,
+  "specMult": 1.0,
+  "specAdd": 1.0,
+  "specSelect": 1,
+  "albedoLevel": 0.20000000298023223877,
+  "albedoContrast": 0.40000000596046447754
+ },
+ "UH1-cpt_caution_panel_red": {
+  "reflMult": 0.5,
+  "reflAdd": 0.0,
+  "specMult": -0.89999997615814208984,
+  "specAdd": 0.89999997615814208984,
+  "specSelect": 0,
+  "albedoLevel": 0.10000000149011611938,
+  "albedoContrast": 1.0
+ },
+ "UH1-cpt_pribors_5": {
+  "reflMult": -0.5,
+  "reflAdd": 0.0,
+  "specMult": 0.0,
+  "specAdd": 0.75,
+  "specSelect": 0,
+  "albedoLevel": 0.31000000238418579102,
+  "albedoContrast": 0.55000001192092895508
+ },
+ "UH1-cpt_caution": {
+  "reflMult": -0.5,
+  "reflAdd": 0.0,
+  "specMult": 0.0,
+  "specAdd": 0.75,
+  "specSelect": 0,
+  "albedoLevel": 0.25,
+  "albedoContrast": 0.94999998807907104492
+ },
+ "UH1-cpt_pribor_light_6": {
+  "reflMult": 1.0,
+  "reflAdd": 1.0,
+  "specMult": 1.0,
+  "specAdd": -2.0920000076293945313,
+  "specSelect": 1,
+  "albedoLevel": 0.0,
+  "albedoContrast": 1.0
+ },
+ "UH1-cpt_seats": {
+  "reflMult": -0.5,
+  "reflAdd": 0.0,
+  "specMult": 0.0,
+  "specAdd": 0.75,
+  "specSelect": 0,
+  "albedoLevel": 0.37000000476837158203,
+  "albedoContrast": 0.55000001192092895508
+ },
+ "UH1-cpt_glass_mat": {
+  "reflMult": 1.0,
+  "reflAdd": 0.0,
+  "specMult": -1.2999999523162841797,
+  "specAdd": 1.0,
+  "specSelect": 1,
+  "albedoLevel": 0.0,
+  "albedoContrast": 1.0
+ },
+ "UH1-cpt_karkas": {
+  "reflMult": -0.5,
+  "reflAdd": 0.0,
+  "specMult": 0.0,
+  "specAdd": 0.75,
+  "specSelect": 0,
+  "albedoLevel": 0.30500000715255737305,
+  "albedoContrast": 0.55000001192092895508
+ },
+ "UH1-cpt_scales_3": {
+  "reflMult": -0.5,
+  "reflAdd": 0.0,
+  "specMult": 0.0,
+  "specAdd": 0.75,
+  "specSelect": 0,
+  "albedoLevel": 0.37000000476837158203,
+  "albedoContrast": 0.55000001192092895508
+ },
+ "UH1-cpt_dev3_6": {
+  "reflMult": -0.5,
+  "reflAdd": 0.0,
+  "specMult": 0.0,
+  "specAdd": 0.75,
+  "specSelect": 0,
+  "albedoLevel": 0.31000000238418579102,
+  "albedoContrast": 0.55000001192092895508
+ },
+ "UH1-cpt_scales_6": {
+  "reflMult": -0.5,
+  "reflAdd": 0.0,
+  "specMult": 0.0,
+  "specAdd": 0.75,
+  "specSelect": 0,
+  "albedoLevel": 0.37000000476837158203,
+  "albedoContrast": 0.55000001192092895508
+ },
+ "UH1-cpt_pribor_light_3": {
+  "reflMult": 1.0,
+  "reflAdd": 1.0,
+  "specMult": 1.0,
+  "specAdd": -3.0,
+  "specSelect": 1,
+  "albedoLevel": 0.0,
+  "albedoContrast": 1.0
+ },
+ "pilot_UH1_01": {
+  "reflMult": -0.5,
+  "reflAdd": 0.0,
+  "specMult": 0.0,
+  "specAdd": 0.89999997615814208984,
+  "specSelect": 0,
+  "albedoLevel": 0.39599999785423278809,
+  "albedoContrast": 0.65100002288818359375
+ },
+ "UH1-cpt_glass": {
+  "reflMult": 0.69999998807907104492,
+  "reflAdd": 0.0,
+  "specMult": 1.0,
+  "specAdd": 1.0,
+  "specSelect": 1,
+  "albedoLevel": 0.20000000298023223877,
+  "albedoContrast": 0.25
+ },
+ "pilot_UH1_head": {
+  "reflMult": -0.5,
+  "reflAdd": 0.0,
+  "specMult": 0.0,
+  "specAdd": 0.75,
+  "specSelect": 0,
+  "albedoLevel": 0.15000000596046447754,
+  "albedoContrast": 0.8159999847412109375
+ },
+ "pilot_UH1_helmet": {
+  "reflMult": -0.5,
+  "reflAdd": 0.0,
+  "specMult": 0.0,
+  "specAdd": 0.75,
+  "specSelect": 0,
+  "albedoLevel": 0.34900000691413879395,
+  "albedoContrast": 0.5220000147819519043
+ },
+ "pilot_UH1_patch": {
+  "reflMult": 0.5,
+  "reflAdd": 0.0,
+  "specMult": -0.89999997615814208984,
+  "specAdd": 0.89999997615814208984,
+  "specSelect": 0,
+  "albedoLevel": 0.35699999332427978516,
+  "albedoContrast": 0.63800001144409179688
+ },
+ "uh1_int": {
+  "reflMult": -0.5,
+  "reflAdd": 0.0,
+  "specMult": 0.0,
+  "specAdd": 0.75,
+  "specSelect": 0,
+  "albedoLevel": 0.25,
+  "albedoContrast": 0.67299997806549072266
+ },
+ "civ_uh1_main": {
+  "reflMult": 0.5,
+  "reflAdd": 0.0,
+  "specMult": -0.89999997615814208984,
+  "specAdd": 0.89999997615814208984,
+  "specSelect": 0,
+  "albedoLevel": 0.15000000596046447754,
+  "albedoContrast": 1.0
+ }
+}
