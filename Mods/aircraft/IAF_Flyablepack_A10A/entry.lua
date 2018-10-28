@@ -36,8 +36,8 @@ mount_vfs_texture_path  ("Mods/aircraft/Flaming Cliffs/Cockpit/Textures/A-10A-CP
 dofile(current_mod_path.."/Views.lua")
 
 
-make_view_settings('IAF_F_4E', ViewSettings, SnapViews)
 -- A-10A cockpit
+make_view_settings('IAF_F_4E', ViewSettings, SnapViews)
 make_flyable('IAF_F_4E',current_mod_path..'/Cockpit/A10A/', {self_ID,'A10A',old = 17}, current_mod_path..'/Comm.lua')
 
 make_view_settings('IAF_F_4E_2000', ViewSettings, SnapViews)

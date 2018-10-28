@@ -15,6 +15,8 @@ encyclopedia_path = current_mod_path..'/Encyclopedia',
 InputProfiles =
 {
     ["IAF_F_4E"] = current_mod_path .. '/Input/IAF_F_4E',
+    ["IAF_F_4E_2000"] = current_mod_path .. '/Input/IAF_F_4E_2000',
+    ["IAF_F_16C"] = current_mod_path .. '/Input/IAF_F_16C',
 },
 
 	binaries 	 =
@@ -33,11 +35,20 @@ mount_vfs_texture_path  ("Mods/aircraft/su-25T/Cockpit/Textures/SU-25T-CPT-TEXTU
 
 dofile(current_mod_path.."/Views.lua")
 
-
-make_view_settings('IAF_F_4E', ViewSettings, SnapViews)
 -- SU-25T cockpit
+-- F-4E
+make_view_settings('IAF_F_4E', ViewSettings, SnapViews)
 make_flyable('IAF_F_4E',current_mod_path..'/Cockpit/',nil, current_mod_path..'/comm.lua')
 --
-
-
+-- IAF_F_4E_2000
+make_view_settings('IAF_F_4E_2000', ViewSettings, SnapViews)
+make_flyable('IAF_F_4E_2000',current_mod_path..'/Cockpit/',nil, current_mod_path..'/comm.lua')
+--
+-- F-16C
+make_view_settings('IAF_F_16C', ViewSettings, SnapViews)
+make_flyable('IAF_F_16C',current_mod_path..'/Cockpit/',nil, current_mod_path..'/comm.lua')
+--
+--
+--
+--
 plugin_done()-- finish declaration , clear temporal data
