@@ -4,21 +4,21 @@ declare_plugin(self_ID,
 image     	 = current_mod_path.."/Theme/icon.png",
 installed 	 = true, -- if false that will be place holder , or advertising
 dirName	  	 = current_mod_path,
-displayName  = _("IAF_F-15C/D/I"),
+displayName  = _("IAF_F-15C/D"),
 developerName   =   "Preflight Mod Team - IAF.101~Schnix and IAF.101~Phantom",
 
-fileMenuName = _("IAF_F-15C/D/I"),
+fileMenuName = _("IAF_F-15C"),
 update_id        = "IAF_F_15C",
 version		 = "0.8.0.alpha",
 state		 = "installed",
-info		 = _("Israeli F-15C/D/I with CFT with Phyton-3/4/5 and derby missiles and A/G weapons by IAF Mod Team from Preflight at http://www.preflight.us/"),
+info		 = _("Israeli F-15C/D with CFT with Phyton-3/4/5 and derby missiles and A/G weapons by IAF Mod Team from Preflight at http://www.preflight.us/"),
 encyclopedia_path = current_mod_path..'/Encyclopedia',
 
 InputProfiles =
 {
     ["IAF_F_15C"] = current_mod_path .. '/Input/IAF_F_15C',
     ["IAF_F_15D"] = current_mod_path .. '/Input/IAF_F_15D',
-    ["IAF_F_15I"] = current_mod_path .. '/Input/IAF_F_15I',
+    ["IAF_F_16A"] = current_mod_path .. '/Input/IAF_F_16A',
 },
 
 
@@ -48,10 +48,6 @@ LogBook =
 			name		= _("IAF F-15D Baz"),
 			type		= "IAF_F_15D",
 		},
-		{
-			name		= _("IAF F-15I Raam"),
-			type		= "IAF_F_15I",
-		},
 	},		
 
 	binaries 	 =
@@ -62,8 +58,9 @@ LogBook =
 )
 ----------------------------------------------------------------------------------------
 --mounting 3d model paths and texture paths 
---mount_vfs_model_path    ("Bazar/World/Shapes")
---mount_vfs_texture_path  (current_mod_path.."/Textures")
+mount_vfs_model_path    ("Bazar/World/Shapes")
+mount_vfs_texture_path  ("Bazar/World/Textures")
+mount_vfs_texture_path  ("Bazar/Textures")
 mount_vfs_model_path	(current_mod_path.."/Shapes")
 mount_vfs_liveries_path (current_mod_path.."/Liveries")
 mount_vfs_texture_path(current_mod_path ..  "/Theme/ME")--for simulator loading window
@@ -91,12 +88,19 @@ make_view_settings('IAF_F_15D', ViewSettings, SnapViews)
 -- F-15 cockpit
 make_flyable('IAF_F_15D',current_mod_path..'/Cockpit/KneeboardRight/',F15FM_D, current_mod_path..'/comm.lua')--AFM
 
------- F-15_I
+------ F-15_I -- replaced by dual seat L39
 --F15FM_I = F15FM
 --dofile(current_mod_path.."/Views.lua")
 --make_view_settings('IAF_F_15I', ViewSettings, SnapViews)
 -- F-15 cockpit
 --make_flyable('IAF_F_15I',current_mod_path..'/Cockpit/KneeboardRight/',F15FM_I, current_mod_path..'/comm.lua')--AFM
 
+
+------ F-15_D
+F16FM_A = F15FM
+dofile(current_mod_path.."/Views_16A.lua")
+make_view_settings('IAF_F_16A', ViewSettings, SnapViews)
+-- F-15 cockpit
+make_flyable('IAF_F_16A',current_mod_path..'/Cockpit/KneeboardRight/',F16FM_A, current_mod_path..'/comm.lua')--AFM
 
 plugin_done()-- finish declaration , clear temporal data
